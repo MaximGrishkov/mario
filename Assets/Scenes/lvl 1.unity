@@ -23220,6 +23220,7 @@ GameObject:
   - component: {fileID: 1415148628}
   - component: {fileID: 1415148629}
   - component: {fileID: 1415148630}
+  - component: {fileID: 1415148631}
   m_Layer: 0
   m_Name: pupsik
   m_TagString: Player
@@ -23399,6 +23400,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotpos: {fileID: 1192591487}
   bullet: {fileID: 5815600884008630465, guid: 49e678904d162074eacda469da464173, type: 3}
+--- !u!114 &1415148631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415148622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cf783ca839daf4e99bba22dd897339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  X: 0
+  Y: 0
 --- !u!1 &1560552293
 GameObject:
   m_ObjectHideFlags: 0
